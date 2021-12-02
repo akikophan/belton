@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t3{
+    width: 33.333%;
+}
+.t2{
+    width: 50%;
+}
+.clear{
+    clear: both;
+}
+ .t6{
+     width: 16.666px;
+ }
+
+
+
+/*header*/
+#header{
+    background: url(/img/GBVKYFLJQEBG2JEU3P46VYQKSM.jpg) top center;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+#header:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(left, #0000009e 0%,#01010100 50%,#00000069 100%);
+}
+#header .header-logo{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 40px;
+    padding: 0 50px;
+}
+#header .header-logo .cottrai{
+    float: left;
+    display: flex;
+}
+#header .cottrai a{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;  
+}
+#header .cottrai a:hover{
+    color: #3431e669;
+}
+#header .header-logo .cotgiua>a>img{
+    display: block;
+    margin: 0 auto;;
+}
+#header .header-logo .cotphai{
+    text-align: right;
+}
+#header .header-logo .cotphai>a{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    padding: 10px 5px;  
+}
+#text-banner .conten{
+    width: 1270px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#text-banner{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    padding: 150px;
+}
+#text-banner .small{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+#text-banner .conten h1{
+    font-family: "Oswald";
+    margin-top: 20px;
+}
+#content {
+    width: 1380px;
+    margin: auto;
+    display: flex;
+    padding: 80px 0px 50px 0px;
+}
+#content .left{
+    width: 35%;
+}
+#content .left span{
+    margin-top: 20px;
+    color: #666;
+    font-size: 19px;
+}
+#content .left h2{
+    padding-top: 30px;
+    width: 70%;
+    line-height: 35px;
+    color: #2b2b2b;
+}
+
+#content .right{
+    width: 65%;
+}
+#content .right p{
+    line-height: 1.4;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-size: 24px;
+    color: #666;
+}
+#wrap-content{
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #040404;
+    
+}
+.content{
+    color: white;
+    width: 1380px;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 500;
+    font-family: "Oswald";
+}
+.content h3{
+    margin: 0px 0px 0 0px;
+    text-transform: none;
+    padding: 0px 0px 0px 0px;
+}
+#wrap-content .contents{
+    margin-top: 48px;
+}
+#wrap-content  .list1{
+    margin: 0 0 30px 0;
+    height: 690px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    float: left;
+  
+}
+#wrap-content .list1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+} 
+#wrap-content .list1 img:hover{
+    transform: (1.1);
+}
+#wrap-content .list1 .layer2{
+    width: 580px;
+    height: 580px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0f0f0f;
+    opacity: 0;
+    transition: 0.4s;
+}
+#wrap-content .list1 img:hover .layer2{
+    opacity: 0.5;
+}
+#wrap-content .list1 .chuto{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    transition: 0.4s;
+}
+#wrap-content .list1 .chunho{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    transition: 0.4s;
+}
+.contents .list1:hover .chuto{
+    opacity: 1;
+    top: 245px;
+}
+.contents .list1:hover .chunho{
+    opacity: 1;
+    top: 285px
+}
+#wrap-content .content>a {
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+}
+#wrap-content .content>a:before{
+    content: "\f178";
+    font: normal normal normal 24px/1 FontAwesome;
+    position: relative;
+    left: -10px;
+    transition: 0.3s;
+}
+#wrap-content .content>a:hover:before{
+    left: -5px;
+}
+#wrap-content2{
+
+}
+#wrap-content2 .content .cot1{
+    float: left;
+    margin: 0 90px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-top: 80px;
+}
+#wrap-content2 .cot1 img{
+    height: 107px;
+    opacity: 0.5;
+}
+#wrap-content2 .cot1:hover img{
+    opacity: 1;
+}
